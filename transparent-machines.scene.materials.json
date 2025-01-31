@@ -1,0 +1,1440 @@
+{
+	"RTXPTMaterials" : 
+	{
+		"version" : 1
+	},
+	"materials" : 
+	[
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : true,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 0.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 1.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "MaterialGlass1",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : true,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 0.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 1.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "MaterialGlass2",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_1002",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_1004",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_1011",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_1013",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_432",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_667",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_669",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_676",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_678",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_734",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_736",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_743",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_745",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_801",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_803",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_810",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_812",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_868",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_870",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_877",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_879",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_935",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_937",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_944",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5509999990463257,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : true,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_946",
+			"version" : 1
+		}
+	]
+}
