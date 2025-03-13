@@ -1488,7 +1488,7 @@
 			"NestedPriority" : 1,
 			"NormalTextureScale" : 0.0,
 			"Opacity" : 0.085889577865600586,
-			"PSDDominantDeltaLobe" : -1,
+			"PSDDominantDeltaLobe" : 0,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
@@ -1596,7 +1596,7 @@
 				"path" : "plant_pot_ivy\\textures\\Material.016_baseColor.dds",
 				"sRGB" : true
 			},
-			"DiffuseTransmissionFactor" : 0.0,
+			"DiffuseTransmissionFactor" : 0.43500000238418579,
 			"EmissiveColor" : 
 			[
 				0.0,
@@ -1609,18 +1609,18 @@
 			"EnableEmissiveTexture" : true,
 			"EnableNormalTexture" : true,
 			"EnableOcclusionRoughnessMetallicTexture" : true,
-			"EnableTransmission" : false,
+			"EnableTransmission" : true,
 			"EnableTransmissionTexture" : true,
 			"ExcludeFromNEE" : false,
 			"IoR" : 1.5,
-			"Metalness" : 1.0,
+			"Metalness" : 0.0,
 			"MetalnessInRedChannel" : false,
 			"NestedPriority" : 14,
 			"NormalTextureScale" : 0.0,
 			"Opacity" : 1.0,
 			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,
-			"Roughness" : 1.0,
+			"Roughness" : 0.89999997615814209,
 			"ShadowNoLFadeout" : 0.0,
 			"SpecularColor" : 
 			[
@@ -1629,7 +1629,7 @@
 				0.0
 			],
 			"ThinSurface" : true,
-			"TransmissionFactor" : 0.0,
+			"TransmissionFactor" : 0.25,
 			"UseSpecularGlossModel" : false,
 			"VolumeAttenuationColor" : 
 			[
@@ -1798,6 +1798,59 @@
 			],
 			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
 			"name" : "Material.019",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : true,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : 0,
+			"PSDExclude" : false,
+			"Roughness" : 0.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 1.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "MaterialGlass2",
 			"version" : 1
 		},
 		{
@@ -2074,11 +2127,12 @@
 				1.0,
 				1.0
 			],
-      "BaseTexture": {
-        "NormalMap": false,
-        "path": "plant_free_pothos_potted\\textures\\POTHOS_Mat_baseColor.dds",
-        "sRGB": true
-      },
+			"BaseTexture" : 
+			{
+				"NormalMap" : false,
+				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_baseColor.dds",
+				"sRGB" : true
+			},
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
 			[
@@ -2099,17 +2153,19 @@
 			"Metalness" : 0.0,
 			"MetalnessInRedChannel" : false,
 			"NestedPriority" : 14,
-      "NormalTexture": {
-        "NormalMap": true,
-        "path": "plant_free_pothos_potted\\textures\\POTHOS_Mat_normal.dds",
-        "sRGB": false
-      },
+			"NormalTexture" : 
+			{
+				"NormalMap" : true,
+				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_normal.dds",
+				"sRGB" : false
+			},
 			"NormalTextureScale" : 1.0,
-      "OcclusionRoughnessMetallicTexture": {
-        "NormalMap": false,
-        "path": "plant_free_pothos_potted\\textures\\POTHOS_Mat_metallicRoughness.dds",
-        "sRGB": false
-      },
+			"OcclusionRoughnessMetallicTexture" : 
+			{
+				"NormalMap" : false,
+				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_metallicRoughness.dds",
+				"sRGB" : false
+			},
 			"Opacity" : 1.0,
 			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,
@@ -2899,6 +2955,377 @@
 				1.0,
 				1.0
 			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_1013",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_432",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_678",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_745",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_812",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_879",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"DiffuseTransmissionFactor" : 0.0,
+			"EmissiveColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"EmissiveIntensity" : 1.0,
+			"EnableAlphaTesting" : false,
+			"EnableBaseTexture" : true,
+			"EnableEmissiveTexture" : true,
+			"EnableNormalTexture" : true,
+			"EnableOcclusionRoughnessMetallicTexture" : true,
+			"EnableTransmission" : false,
+			"EnableTransmissionTexture" : true,
+			"ExcludeFromNEE" : false,
+			"IoR" : 1.5,
+			"Metalness" : 0.0,
+			"MetalnessInRedChannel" : false,
+			"NestedPriority" : 14,
+			"NormalTextureScale" : 0.0,
+			"Opacity" : 1.0,
+			"PSDDominantDeltaLobe" : -1,
+			"PSDExclude" : false,
+			"Roughness" : 1.0,
+			"ShadowNoLFadeout" : 0.0,
+			"SpecularColor" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"ThinSurface" : false,
+			"TransmissionFactor" : 0.0,
+			"UseSpecularGlossModel" : false,
+			"VolumeAttenuationColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
+			"VolumeAttenuationDistance" : 3.4028234663852886e+38,
+			"name" : "RandomColor_946",
+			"version" : 1
+		},
+		{
+			"AlphaCutoff" : 0.5,
+			"BaseOrDiffuseColor" : 
+			[
+				1.0,
+				1.0,
+				1.0
+			],
 			"BaseTexture" : 
 			{
 				"NormalMap" : false,
@@ -3037,9 +3464,9 @@
 			"AlphaCutoff" : 0.5,
 			"BaseOrDiffuseColor" : 
 			[
-				0.3069281280040741,
-				0.10075778514146805,
-				0.076312325894832611
+				0.10000000149011612,
+				0.033300001174211502,
+				0.02500000037252903
 			],
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
@@ -3054,16 +3481,16 @@
 			"EnableEmissiveTexture" : true,
 			"EnableNormalTexture" : true,
 			"EnableOcclusionRoughnessMetallicTexture" : true,
-			"EnableTransmission" : true,
+			"EnableTransmission" : false,
 			"EnableTransmissionTexture" : true,
 			"ExcludeFromNEE" : false,
 			"IoR" : 1.4500000476837158,
-			"Metalness" : 0.0,
+			"Metalness" : 1.0,
 			"MetalnessInRedChannel" : false,
 			"NestedPriority" : 14,
 			"NormalTextureScale" : 0.0,
 			"Opacity" : 1.0,
-			"PSDDominantDeltaLobe" : -1,
+			"PSDDominantDeltaLobe" : 1,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
@@ -3549,11 +3976,12 @@
 				1.0,
 				1.0
 			],
-      "BaseTexture": {
-        "NormalMap": false,
-        "path": "plant_free_pothos_potted\\textures\\WOODEN_LEGS_POT_baseColor.dds",
-        "sRGB": true
-      },
+			"BaseTexture" : 
+			{
+				"NormalMap" : false,
+				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\WOODEN_LEGS_POT_baseColor.dds",
+				"sRGB" : true
+			},
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
 			[
@@ -3575,11 +4003,12 @@
 			"MetalnessInRedChannel" : false,
 			"NestedPriority" : 14,
 			"NormalTextureScale" : 0.0,
-      "OcclusionRoughnessMetallicTexture": {
-        "NormalMap": false,
-        "path": "plant_free_pothos_potted\\textures\\WOODEN_LEGS_POT_metallicRoughness.dds",
-        "sRGB": false
-      },
+			"OcclusionRoughnessMetallicTexture" : 
+			{
+				"NormalMap" : false,
+				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\WOODEN_LEGS_POT_metallicRoughness.dds",
+				"sRGB" : false
+			},
 			"Opacity" : 1.0,
 			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,

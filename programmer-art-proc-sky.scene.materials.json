@@ -476,9 +476,9 @@
 			"AlphaCutoff" : 0.5,
 			"BaseOrDiffuseColor" : 
 			[
-				0.0,
-				0.0,
-				0.0
+				1.0,
+				1.0,
+				1.0
 			],
 			"BaseTexture" : 
 			{
@@ -490,10 +490,10 @@
 			"EmissiveColor" : 
 			[
 				1.0,
-				1.0,
-				1.0
+				0.60000002384185791,
+				0.30000001192092896
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 0.20000000298023224,
 			"EmissiveTexture" : 
 			{
 				"NormalMap" : false,
@@ -505,10 +505,10 @@
 			"EnableEmissiveTexture" : true,
 			"EnableNormalTexture" : true,
 			"EnableOcclusionRoughnessMetallicTexture" : true,
-			"EnableTransmission" : false,
+			"EnableTransmission" : true,
 			"EnableTransmissionTexture" : true,
-			"ExcludeFromNEE" : false,
-			"IoR" : 1.5,
+			"ExcludeFromNEE" : true,
+			"IoR" : 1.0499999523162842,
 			"Metalness" : 0.0,
 			"MetalnessInRedChannel" : false,
 			"NestedPriority" : 14,
@@ -516,7 +516,7 @@
 			"Opacity" : 0.070000000298023224,
 			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,
-			"Roughness" : 0.19999998807907104,
+			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
 			"SpecularColor" : 
 			[
@@ -525,8 +525,8 @@
 				0.0
 			],
 			"ThinSurface" : true,
-			"TransmissionFactor" : 0.0,
-			"UseSpecularGlossModel" : true,
+			"TransmissionFactor" : 1.0,
+			"UseSpecularGlossModel" : false,
 			"VolumeAttenuationColor" : 
 			[
 				1.0,
@@ -1063,7 +1063,7 @@
 			"NestedPriority" : 1,
 			"NormalTextureScale" : 0.0,
 			"Opacity" : 0.085889577865600586,
-			"PSDDominantDeltaLobe" : -1,
+			"PSDDominantDeltaLobe" : 0,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
@@ -1222,7 +1222,7 @@
 			"NestedPriority" : 2,
 			"NormalTextureScale" : 0.0,
 			"Opacity" : 1.0,
-			"PSDDominantDeltaLobe" : -1,
+			"PSDDominantDeltaLobe" : 0,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
@@ -1588,7 +1588,7 @@
 				"sRGB" : false
 			},
 			"Opacity" : 1.0,
-			"PSDDominantDeltaLobe" : 0,
+			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
 			"ShadowNoLFadeout" : 0.0,
@@ -1654,7 +1654,7 @@
 			},
 			"Opacity" : 1.0,
 			"PSDDominantDeltaLobe" : -1,
-			"PSDExclude" : true,
+			"PSDExclude" : false,
 			"Roughness" : 1.0,
 			"ShadowNoLFadeout" : 0.0,
 			"SpecularColor" : 
@@ -1875,7 +1875,7 @@
 			"PSDDominantDeltaLobe" : -1,
 			"PSDExclude" : false,
 			"Roughness" : 0.0,
-			"ShadowNoLFadeout" : 0.0,
+			"ShadowNoLFadeout" : 0.090000003576278687,
 			"SpecularColor" : 
 			[
 				1.0,
