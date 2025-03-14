@@ -493,7 +493,7 @@
 				0.60000002384185791,
 				0.30000001192092896
 			],
-			"EmissiveIntensity" : 0.20000000298023224,
+			"EmissiveIntensity" : 45.816001892089844,
 			"EmissiveTexture" : 
 			{
 				"NormalMap" : false,
@@ -1906,11 +1906,11 @@
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
 			[
-				0.0,
-				0.0,
-				0.0
+				0.016000000759959221,
+				1.0,
+				0.016000000759959221
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 630.9580078125,
 			"EnableAlphaTesting" : false,
 			"EnableBaseTexture" : true,
 			"EnableEmissiveTexture" : true,
@@ -2384,10 +2384,10 @@
 			"EmissiveColor" : 
 			[
 				0.0,
-				0.0,
+				0.43900001049041748,
 				0.0
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 0.0,
 			"EnableAlphaTesting" : false,
 			"EnableBaseTexture" : true,
 			"EnableEmissiveTexture" : true,
@@ -3076,7 +3076,7 @@
 				0.0,
 				0.0
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 0.0,
 			"EnableAlphaTesting" : false,
 			"EnableBaseTexture" : true,
 			"EnableEmissiveTexture" : true,
@@ -3390,11 +3390,11 @@
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
 			[
-				0.0,
-				0.0,
-				0.0
+				1.0,
+				0.0020000000949949026,
+				0.0020000000949949026
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 5248.07177734375,
 			"EnableAlphaTesting" : false,
 			"EnableBaseTexture" : true,
 			"EnableEmissiveTexture" : true,
@@ -4721,11 +4721,11 @@
 			"DiffuseTransmissionFactor" : 0.0,
 			"EmissiveColor" : 
 			[
-				0.0,
-				0.0,
-				0.0
+				0.019999999552965164,
+				0.019999999552965164,
+				1.0
 			],
-			"EmissiveIntensity" : 1.0,
+			"EmissiveIntensity" : 478.6300048828125,
 			"EnableAlphaTesting" : false,
 			"EnableBaseTexture" : true,
 			"EnableEmissiveTexture" : true,
