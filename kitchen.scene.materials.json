@@ -2130,7 +2130,7 @@
 			"BaseTexture" : 
 			{
 				"NormalMap" : false,
-				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_baseColor.dds",
+				"path" : "plant_free_pothos_potted\\textures\\POTHOS_Mat_baseColor.dds",
 				"sRGB" : true
 			},
 			"DiffuseTransmissionFactor" : 0.0,
@@ -2156,14 +2156,14 @@
 			"NormalTexture" : 
 			{
 				"NormalMap" : true,
-				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_normal.dds",
+				"path" : "plant_free_pothos_potted\\textures\\POTHOS_Mat_normal.dds",
 				"sRGB" : false
 			},
 			"NormalTextureScale" : 1.0,
 			"OcclusionRoughnessMetallicTexture" : 
 			{
 				"NormalMap" : false,
-				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\POTHOS_Mat_metallicRoughness.dds",
+				"path" : "plant_free_pothos_potted\\textures\\POTHOS_Mat_metallicRoughness.dds",
 				"sRGB" : false
 			},
 			"Opacity" : 1.0,
@@ -3979,7 +3979,7 @@
 			"BaseTexture" : 
 			{
 				"NormalMap" : false,
-				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\WOODEN_LEGS_POT_baseColor.dds",
+				"path" : "plant_free_pothos_potted\\textures\\WOODEN_LEGS_POT_baseColor.dds",
 				"sRGB" : true
 			},
 			"DiffuseTransmissionFactor" : 0.0,
@@ -4006,7 +4006,7 @@
 			"OcclusionRoughnessMetallicTexture" : 
 			{
 				"NormalMap" : false,
-				"path" : "free_pothos_potted_plant_-_money_plant\\textures\\WOODEN_LEGS_POT_metallicRoughness.dds",
+				"path" : "plant_free_pothos_potted\\textures\\WOODEN_LEGS_POT_metallicRoughness.dds",
 				"sRGB" : false
 			},
 			"Opacity" : 1.0,
