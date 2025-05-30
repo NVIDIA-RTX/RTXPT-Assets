@@ -1,0 +1,59 @@
+ {
+  "models": [
+    "transparent-machines/transparent-machines-pt0.gltf",
+    "transparent-machines/transparent-machines-pt1.gltf"
+  ],
+  "graph": [
+    {
+      "name": "transparent-machines-pt0",
+      "model": 0,
+      "translation": [ 0.0, 0.0, 0.0 ],
+      "scaling": 0.02
+    },
+    {
+      "name": "transparent-machines-pt1",
+      "model": 1,
+      "translation": [ 0.0, 0.0, 0.0 ],
+      "scaling": 0.02
+    },
+    {
+      "name": "Lights",
+      "children": [
+        {
+          "name": "Sky",
+          "type": "EnvironmentLight",
+          "radianceScale": [ 1, 1, 1 ],
+          "textureIndex": [ 0 ],
+          "rotation": [ 0 ],
+          "path": "==PROCEDURAL_SKY=="
+        }
+      ]
+    },
+    {
+      "name": "Cameras",
+      "children": [
+        {
+          "name": "Default",
+          "type": "PerspectiveCameraEx",
+          "translation": [ -6.033879, -1.067553, 4.060103 ],
+          "rotation": [ 0.078348, -0.349519, 0.029343, 0.933186 ],
+          "verticalFov": 0.6,
+          "zNear": 0.100000,
+          "enableAutoExposure": false,
+          "exposureCompensation": -0.500000,
+          "exposureValue": 0.000000
+        }
+      ]
+    },
+    {
+      "name": "SampleSettings",
+      "type": "SampleSettings",
+      "realtimeMode": true,
+      "enableAnimations": true,
+      "enableReSTIRDI": false,
+      "enableReSTIRGI": false
+    }
+  ]
+}
+
+
