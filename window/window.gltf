@@ -33,14 +33,14 @@
                     "transmissionFactor" : 1
                 }
             },
-            "name" : "LMBR_000006e_Glass_Exterior",
+            "name" : "window_glass",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
             }
         },
         {
-            "name" : "LMBR_0000066_wood_painted_02",
+            "name" : "window_wood_painted",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.0027596501167863607,
