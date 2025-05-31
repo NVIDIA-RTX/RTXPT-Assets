@@ -40,18 +40,6 @@
             }
         },
         {
-            "extensions" : {
-                "KHR_materials_transmission" : {
-                    "transmissionFactor" : 1
-                }
-            },
-            "name" : "LMBR_000006f_Glass_Interior",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            }
-        },
-        {
             "name" : "LMBR_0000066_wood_painted_02",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -87,7 +75,7 @@
                         "TANGENT" : 8
                     },
                     "indices" : 4,
-                    "material" : 1
+                    "material" : 0
                 },
                 {
                     "attributes" : {
@@ -97,7 +85,7 @@
                         "TANGENT" : 12
                     },
                     "indices" : 13,
-                    "material" : 2
+                    "material" : 1
                 }
             ]
         }
