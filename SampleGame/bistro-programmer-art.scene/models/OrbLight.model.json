@@ -1,0 +1,17 @@
+{
+  "sceneModelName": "OrbLight",
+  "modelPose": {
+    "translation": [ 0, 0.0, 0 ],
+    "euler": [ 0, 0, 0 ],
+    "scaling": 0.05
+  },
+  "lights": [
+    {
+      "name": "OrbLight",
+      "color": [ 0.95, 1, 0.95 ],
+      "intensity": 0.1,
+      "enabled": true,
+      "toggleOnUIClick": false
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "models": [
-    "kitchen/kitchen.gltf",
-    "glass-liquid-ice/glass-liquid-ice.gltf",
-    "plant_free_pothos_potted/scene.gltf",
-    "plant_pot_ivy/scene.gltf",
-    "mech_drone/scene.gltf"
+    "Models/kitchen/kitchen.gltf",
+    "Models/Glass-liquid-ice/glass-liquid-ice.gltf",
+    "Models/plant_free_pothos_potted/scene.gltf",
+    "Models/plant_pot_ivy/scene.gltf",
+    "Models/mech_drone/mech_drone.gltf"
   ],
   "graph": [
     {
@@ -94,7 +94,7 @@
       "enableAnimations": true,
       "enableReSTIRDI": false,
       "enableReSTIRGI": true,
-      "realtimeFireflyFilter": 0.05,
+      "realtimeFireflyFilter": 0.15,
       "maxBounces": 15,
       "realtimeMaxDiffuseBounces": 3,
       "referenceMaxDiffuseBounces": 6

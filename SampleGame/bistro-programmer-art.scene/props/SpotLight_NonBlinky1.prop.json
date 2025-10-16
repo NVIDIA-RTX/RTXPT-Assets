@@ -1,0 +1,54 @@
+{
+	"animPlaybackSpeed" : 1.0,
+	"defaultCameraPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"translation" : 
+		[
+			0.0,
+			0.044938154518604279,
+			0.0
+		]
+	},
+	"modelName" : "SpotLight",
+	"modelsLightsOverrides" : 
+	[
+		{
+			"lightOverrides" : 
+			[
+				{
+					"innerAngle" : 20.0,
+					"intensity" : 40.0,
+					"name" : "SpotLight",
+					"outerAngle" : 21.0
+				}
+			],
+			"modelInstanceName" : "SimplePropOnlyModel"
+		}
+	],
+	"propType" : "SimpleProp",
+	"startPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.025353389571527749,
+			0.92352992160638891,
+			0.010501983435605154,
+			0.38254386429838017
+		],
+		"translation" : 
+		[
+			-29.20595113383024,
+			5.445848565126159,
+			-4.3187886676460039
+		]
+	}
+}

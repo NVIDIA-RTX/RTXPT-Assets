@@ -1,0 +1,19 @@
+{
+  "sceneModelName": "SpotLight",
+  "modelPose": {
+    "translation": [ 0, 0.0, 0 ],
+    "euler": [ 0, 0, 0 ],
+    "scaling": 0.1
+  },
+  "lights": [
+    {
+      "name": "SpotLight",
+      "color": [ 1.0, 0.9, 0.7 ],
+      "intensity": 30.0,
+      "innerAngle": 25.0,
+      "outerAngle": 35.0,
+      "enabled": true,
+      "toggleOnUIClick": false
+    }
+  ]
+}
