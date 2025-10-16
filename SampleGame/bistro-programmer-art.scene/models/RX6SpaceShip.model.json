@@ -1,0 +1,46 @@
+{
+  "sceneModelName": "rx6",
+  "modelPose": {
+    "translation": [ 0, -0.08, 0 ],
+    "euler": [ 0, 1.57079632679, 0 ],
+    "scaling": 0.04
+  },
+  "lights": [
+    {
+      "name": "SpotLeft",
+      "color": [ 0.80, 0.90, 1.0 ],
+      "intensity": 50.0,
+      "innerAngle": 11.875,
+      "outerAngle": 12.5,
+      "enabled": true,
+      "toggleOnUIClick": false
+    },
+    {
+      "name": "SpotRight",
+      "color": [ 0.80, 0.90, 1.0 ],
+      "intensity": 50.0,
+      "innerAngle": 11.875,
+      "outerAngle": 12.5,
+      "enabled": true,
+      "toggleOnUIClick": false
+    },
+    {
+      "name": "BlobLeft",
+      "color": [ 1.0, 0.01, 0.01 ],
+      "intensity": 0.002,
+      "innerAngle": 0.0,
+      "outerAngle": 0.0,
+      "enabled": true,
+      "toggleOnUIClick": false
+    },
+    {
+      "name": "BlobRight",
+      "color": [ 0.01, 1.0, 0.01 ],
+      "intensity": 0.002,
+      "innerAngle": 0.0,
+      "outerAngle": 0.0,
+      "enabled": true,
+      "toggleOnUIClick": false
+    }
+  ]
+}

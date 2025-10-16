@@ -1,0 +1,8 @@
+{
+  "sceneModelName": "ConvergenceTest",
+  "modelPose": {
+    "translation": [ 0, 0.0, 0 ],
+    "euler": [ 0, 0, 0 ],
+    "scaling": 1
+  }
+}

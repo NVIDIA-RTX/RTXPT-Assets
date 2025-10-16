@@ -1,0 +1,45 @@
+{
+	"animPlaybackSpeed" : 1.0,
+	"defaultCameraPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"translation" : 
+		[
+			0.0,
+			0.044938154518604279,
+			0.0
+		]
+	},
+	"modelName" : "GlassSphere",
+	"propType" : "SimpleProp",
+	"startPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"scaling" : 
+		[
+			0.050000000000000003,
+			0.050000000000000003,
+			0.050000000000000003
+		],
+		"translation" : 
+		[
+			-12.753249471657909,
+			1.1600657581584528,
+			6.9287556508788839
+		]
+	}
+}

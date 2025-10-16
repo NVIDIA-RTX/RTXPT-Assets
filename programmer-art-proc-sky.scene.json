@@ -1,13 +1,13 @@
 {
   "models": [
-    "nested-dielectrics/nested-dielectrics.gltf",
-    "glTF-Sample-Models/2.0/DragonAttenuation/glTF/DragonAttenuation.gltf",
-    "glass-liquid-ice/glass-liquid-ice.gltf",
-    "standing-mirror/standing-mirror.gltf",
-    "glTF-Sample-Models/2.0/BrainStem/glTF/BrainStem.gltf",
-    "mech_drone/scene.gltf",
-    "glTF-Sample-Models/2.0/ABeautifulGame/glTF/ABeautifulGame.gltf",
-    "window/window.gltf"
+    "Models/nested-dielectrics/nested-dielectrics.gltf",
+    "Models/glTF-Sample-Models/2.0/DragonAttenuation/glTF/DragonAttenuation.gltf",
+    "Models/Glass-liquid-ice/glass-liquid-ice.gltf",
+    "Models/standing-mirror/standing-mirror.gltf",
+    "Models/glTF-Sample-Models/2.0/BrainStem/glTF/BrainStem.gltf",
+    "Models/mech_drone/mech_drone.gltf",
+    "Models/glTF-Sample-Models/2.0/ABeautifulGame/glTF/ABeautifulGame.gltf",
+    "Models/window/window.gltf"
   ],
   "graph": [
     {

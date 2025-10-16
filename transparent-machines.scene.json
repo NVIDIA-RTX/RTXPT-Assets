@@ -1,7 +1,7 @@
  {
   "models": [
-    "transparent-machines/transparent-machines-pt0.gltf",
-    "transparent-machines/transparent-machines-pt1.gltf"
+    "Models/transparent-machines/transparent-machines-pt0.gltf",
+    "Models/transparent-machines/transparent-machines-pt1.gltf"
   ],
   "graph": [
     {
