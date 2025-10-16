@@ -114,7 +114,7 @@
           "radianceScale": [ 1, 1, 1 ],
           "textureIndex": [ 0 ],
           "rotation": [ 0 ],
-          "path": "EnvironmentMaps/kloppenheim_05_puresky_4k_cube_bc6u.dds"
+          "path": "EnvironmentMaps/shanghai_bund_4k_cube_bc6u.dds"
         }
       ]
     },
