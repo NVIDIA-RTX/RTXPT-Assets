@@ -130,7 +130,7 @@
           "zNear": 0.001,
           "exposureValue": -1.0,
           "enableAutoExposure": true,
-          "exposureCompensation": 0.9,
+          "exposureCompensation": 0.8,
           "exposureValueMin": -4.0,
           "exposureValueMax": 6.0
         }
