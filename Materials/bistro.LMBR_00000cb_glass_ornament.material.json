@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\bistro\\paris_bistro_glass_decal_ornament\\paris_bistro_glass_decal_ornament_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.0,
+	"DiffuseTransmissionFactor" : 0.10000000149011612,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -26,7 +26,7 @@
 	"EnableEmissiveTexture" : true,
 	"EnableNormalTexture" : true,
 	"EnableOcclusionRoughnessMetallicTexture" : true,
-	"EnableTransmission" : false,
+	"EnableTransmission" : true,
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
@@ -36,8 +36,9 @@
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurface" : false,
 	"PSDDominantDeltaLobe" : -1,
-	"PSDExclude" : false,
+	"PSDExclude" : true,
 	"Roughness" : 0.66666698455810547,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
@@ -48,7 +49,7 @@
 		0.13286800682544708
 	],
 	"ThinSurface" : true,
-	"TransmissionFactor" : 0.0,
+	"TransmissionFactor" : 0.80000001192092896,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : true,
 	"VolumeAttenuationColor" : 

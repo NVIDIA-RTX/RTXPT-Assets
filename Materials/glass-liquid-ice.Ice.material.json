@@ -6,7 +6,7 @@
 		0.89999997615814209,
 		1.0
 	],
-	"DiffuseTransmissionFactor" : 1.0,
+	"DiffuseTransmissionFactor" : 0.69999998807907104,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -30,7 +30,8 @@
 	"NestedPriority" : 2,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 0.10429447889328003,
-	"PSDDominantDeltaLobe" : -1,
+	"PSDBlockMotionVectorsAtSurfaceType" : 2,
+	"PSDDominantDeltaLobe" : 1,
 	"PSDExclude" : false,
 	"Roughness" : 0.0,
 	"ShadowNoLFadeout" : 0.0,
@@ -42,7 +43,7 @@
 		0.0
 	],
 	"ThinSurface" : false,
-	"TransmissionFactor" : 0.40000000596046448,
+	"TransmissionFactor" : 0.89999997615814209,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : false,
 	"VolumeAttenuationColor" : 

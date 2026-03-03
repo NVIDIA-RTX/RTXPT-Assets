@@ -13,7 +13,7 @@
 		1.0,
 		1.0
 	],
-	"EmissiveIntensity" : 0.0099999997764825821,
+	"EmissiveIntensity" : 0.0,
 	"EnableAlphaTesting" : false,
 	"EnableAsAnalyticLightProxy" : false,
 	"EnableBaseTexture" : true,
@@ -30,6 +30,7 @@
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurface" : false,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.46666666865348816,

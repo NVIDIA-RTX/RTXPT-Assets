@@ -3,8 +3,8 @@
 	"BaseOrDiffuseColor" : 
 	[
 		1.0,
-		1.0,
-		1.0
+		0.80000001192092896,
+		0.60000002384185791
 	],
 	"BaseTexture" : 
 	{
@@ -42,6 +42,7 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 2,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.38999998569488525,

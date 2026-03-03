@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\bistro\\paris_wickerbasket_01\\paris_wickerbasket_01_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.0,
+	"DiffuseTransmissionFactor" : 0.24300000071525574,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -26,7 +26,7 @@
 	"EnableEmissiveTexture" : true,
 	"EnableNormalTexture" : true,
 	"EnableOcclusionRoughnessMetallicTexture" : true,
-	"EnableTransmission" : false,
+	"EnableTransmission" : true,
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,

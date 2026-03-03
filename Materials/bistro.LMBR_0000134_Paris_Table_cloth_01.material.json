@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\bistro\\paris_cotton_placemat_01\\paris_cotton_placemat_01_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.0,
+	"DiffuseTransmissionFactor" : 0.35199999809265137,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -26,7 +26,7 @@
 	"EnableEmissiveTexture" : true,
 	"EnableNormalTexture" : true,
 	"EnableOcclusionRoughnessMetallicTexture" : true,
-	"EnableTransmission" : false,
+	"EnableTransmission" : true,
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
@@ -50,14 +50,14 @@
 	"Opacity" : 1.0,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
-	"Roughness" : 0.49000000953674316,
+	"Roughness" : 0.69999998807907104,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.22580647468566895,
-		0.22580420970916748,
-		0.22580420970916748
+		0.092000000178813934,
+		0.092000000178813934,
+		0.096000000834465027
 	],
 	"ThinSurface" : false,
 	"TransmissionFactor" : 0.0,

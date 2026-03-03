@@ -94,7 +94,7 @@
           "verticalFov": 0.6,
           "zNear": 0.100000,
           "enableAutoExposure": false,
-          "exposureCompensation": 1.700000,
+          "exposureCompensation": 1.500000,
           "exposureValue": 0.000000
         }
       ]
@@ -104,8 +104,6 @@
       "type": "SampleSettings",
       "realtimeMode": true,
       "enableAnimations": true,
-      "enableReSTIRDI": false,
-      "enableReSTIRGI": false,
       "startingCamera": -1
     }
   ]

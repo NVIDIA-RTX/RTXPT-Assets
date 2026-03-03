@@ -30,6 +30,7 @@
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 2,
 	"PSDDominantDeltaLobe" : 0,
 	"PSDExclude" : false,
 	"Roughness" : 0.0,

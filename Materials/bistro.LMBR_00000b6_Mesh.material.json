@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\street\\paris_bistroawning_02\\paris_bistroawning_02_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.0,
+	"DiffuseTransmissionFactor" : 0.43299999833106995,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -26,7 +26,7 @@
 	"EnableEmissiveTexture" : true,
 	"EnableNormalTexture" : true,
 	"EnableOcclusionRoughnessMetallicTexture" : true,
-	"EnableTransmission" : false,
+	"EnableTransmission" : true,
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
@@ -60,7 +60,7 @@
 		0.031372550874948502
 	],
 	"ThinSurface" : false,
-	"TransmissionFactor" : 0.0,
+	"TransmissionFactor" : 0.24799999594688416,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : true,
 	"VolumeAttenuationColor" : 

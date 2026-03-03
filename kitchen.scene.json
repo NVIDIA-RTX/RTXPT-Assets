@@ -88,7 +88,7 @@
           "verticalFov": 0.628029,
           "zNear": 0.010000,
           "enableAutoExposure": true,
-          "exposureCompensation": 1.5,
+          "exposureCompensation": 1.3,
           "exposureValueMin": -4.0,
           "exposureValueMax": 5.0,
           "exposureValue": -2.0
@@ -100,12 +100,7 @@
       "type": "SampleSettings",
       "realtimeMode": true,
       "enableAnimations": true,
-      "enableReSTIRDI": false,
-      "enableReSTIRGI": true,
-      "realtimeFireflyFilter": 0.15,
-      "maxBounces": 25,
-      "realtimeMaxDiffuseBounces": 3,
-      "referenceMaxDiffuseBounces": 6
+      "realtimeFireflyFilter": 0.15
     }
   ]
 }

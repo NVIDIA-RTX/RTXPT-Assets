@@ -6,16 +6,15 @@
     "Models/standing-mirror/standing-mirror.gltf",
     "Models/glTF-Sample-Models/2.0/BrainStem/glTF/BrainStem.gltf",
     "Models/glTF-Sample-Models/2.0/ABeautifulGame/glTF/ABeautifulGame.gltf",
-    "Models/transparent-machines/transparent-machines-pt0.gltf",
-    "Models/transparent-machines/transparent-machines-pt1.gltf",
+    "Models/sphere_with_holes/sphere_with_holes.gltf",
     "Models/RX6/rx6.gltf",
     "Models/SimpleLights/OrbLight.gltf",
     "Models/SimpleLights/SpotLight.gltf",
     "Models/living_room/living_room.gltf",
-    "Models/sphere_with_holes/sphere_with_holes.gltf",
     "Models/GlassSphere/GlassSphere.gltf",
     "Models/GlassLens/GlassLens.gltf",
-    "Models/ConvergenceTest/ConvergenceTest.gltf"
+    "Models/ConvergenceTest/ConvergenceTest.gltf",
+    "Models/window/window.gltf"
   ],
   "graph": [
     {
@@ -24,23 +23,16 @@
     },
     {
       "name": "Sphere",
-      "model": 12,
+      "model": 6,
       "translation": [ -33.0, 0.25, -1.2 ],
       "scaling": 0.25
     },
     {
-      "name": "transparent-machines-pt0",
+      "name": "Sphere1",
       "model": 6,
-      "translation": [ -1.949141, 25.6, -13.380131 ],
-      "rotation": [ 0.020346, -0.863867, 0.035006, 0.502090 ],
-      "scaling": 0.02
-    },
-    {
-      "name": "transparent-machines-pt1",
-      "model": 7,
-      "translation": [ -1.949141, 25.6, -13.380131 ],
-      "rotation": [ 0.020346, -0.863867, 0.035006, 0.502090 ],
-      "scaling": 0.02
+      "translation": [ -41.3, 2.05, -1.7 ],
+      "euler": [ 1.57079632679, 2.356194, 0 ],
+      "scaling": 0.1
     },
     {
       "name": "TranslucentDragon",
@@ -106,6 +98,34 @@
       "rotation": [ 0.0, -0.32, 0.0, 0.94741754 ]
     },
     {
+      "name": "WindowMirror1",
+      "model": 14,
+      "translation": [ 7.90, 2.3, 24.4 ],
+      "scaling": 0.55,
+      "euler": [ 0, 1.23, 0 ]
+    },
+    {
+      "name": "WindowMirror2",
+      "model": 14,
+      "translation": [ 5.96, 2.3, 29.7 ],
+      "scaling": 0.55,
+      "euler": [ 0, 1.23, 0 ]
+    },
+    {
+      "name": "WindowMirror3",
+      "model": 14,
+      "translation": [ -13.2, 0.87, 24.0 ],
+      "scaling": 0.56,
+      "euler": [ 0.2, 1.23, 0.2 ]
+    },
+    {
+      "name": "WindowMirror4",
+      "model": 14,
+      "translation": [ -3.8, 1.95, 6.9 ],
+      "scaling": 0.24,
+      "euler": [ 0, 1.07, 0 ]
+    },
+    {
       "name": "Lights",
       "children": [
         {
@@ -130,7 +150,7 @@
           "zNear": 0.001,
           "exposureValue": -1.0,
           "enableAutoExposure": true,
-          "exposureCompensation": 0.8,
+          "exposureCompensation": 0.6,
           "exposureValueMin": -4.0,
           "exposureValueMax": 6.0
         }
@@ -140,10 +160,7 @@
       "name": "SampleSettings",
       "type": "SampleSettings",
       "realtimeMode": true,
-      "enableAnimations": true,
-      "enableReSTIRDI": false,
-      "enableReSTIRGI": true,
-      "maxBounces": 26
+      "enableAnimations": true
     },
     {
       "name": "GameSettings",
@@ -303,6 +320,23 @@
 			"channels": [
 				{
 					"target": "/Sphere/sphere/body",
+					"attribute": "rotation",
+					"mode": "slerp",
+					"data": [
+						{ "time": 0, "value": [0, 0, 0, 1] },
+						{ "time": 1, "value": [0, 0, 0.7071068, 0.7071068] },
+						{ "time": 2, "value": [0, 0, 1, 0] },
+						{ "time": 3, "value": [0, 0, 0.7071068, -0.7071068] },
+						{ "time": 4, "value": [0, 0, 0, -1] }
+					]
+				}
+			]
+		},
+    {
+			"name": "RotatingSphere",
+			"channels": [
+				{
+					"target": "/Sphere1/sphere/body",
 					"attribute": "rotation",
 					"mode": "slerp",
 					"data": [

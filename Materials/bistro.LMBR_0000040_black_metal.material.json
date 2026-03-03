@@ -36,9 +36,10 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurface" : false,
 	"PSDDominantDeltaLobe" : -1,
-	"PSDExclude" : false,
-	"Roughness" : 0.40000000596046448,
+	"PSDExclude" : true,
+	"Roughness" : 0.081000000238418579,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 

@@ -19,7 +19,7 @@
 		1.0,
 		1.0
 	],
-	"EmissiveIntensity" : 1.0,
+	"EmissiveIntensity" : 50.0,
 	"EmissiveTexture" : 
 	{
 		"NormalMap" : false,
@@ -54,6 +54,7 @@
 		"sRGB" : false
 	},
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurface" : false,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.85857862234115601,

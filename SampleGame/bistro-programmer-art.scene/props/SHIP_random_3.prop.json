@@ -1,0 +1,80 @@
+{
+  "animPlaybackSpeed": 1.0,
+  "components": [
+    {
+      "type": "BasicInteractableUI"
+    }
+  ],
+  "defaultCameraPose": {
+    "keytime": 0.0,
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "translation": [
+      0.0,
+      0.0,
+      0.08256889134645462
+    ]
+  },
+  "modelName": "RX6SpaceShip",
+  "propType": "SimpleProp",
+  "startPose": {
+    "keytime": 0.0,
+    "rotation": [
+      -0.010828333728860955,
+      0.90259261701172366,
+      -0.0051643394360112909,
+      0.43032853089561002
+    ],
+    "scaling": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "translation": [
+      -7.5213661193847656,
+      0.59726899862289429,
+      4.809669017791748
+    ]
+  },
+  "modelsLightsOverrides": [
+    {
+      "lightOverrides": [
+        {
+          "name": "BlobLeft",
+          "intensity": 0.0005,
+          "innerAngle": 180.0,
+          "outerAngle": 180.0,
+          "enabled": true,
+          "toggleOnUIClick": false
+        },
+        {
+          "name": "BlobRight",
+          "intensity": 0.0005,
+          "innerAngle": 180.0,
+          "outerAngle": 180.0,
+          "enabled": true,
+          "toggleOnUIClick": false
+        },
+        {
+          "name": "SpotLeft",
+          "color": [ 1.0, 0.90, 0.8 ],
+          "intensity": 0.1,
+          "enabled": true,
+          "toggleOnUIClick": false
+        },
+        {
+          "name": "SpotRight",
+          "color": [ 1.0, 0.90, 0.8 ],
+          "intensity": 0.1,
+          "enabled": true,
+          "toggleOnUIClick": false
+        }
+      ],
+      "modelInstanceName": "SimplePropOnlyModel"
+    }
+  ]
+}

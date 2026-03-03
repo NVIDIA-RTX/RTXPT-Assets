@@ -50,8 +50,7 @@
       "type": "SampleSettings",
       "realtimeMode": true,
       "enableAnimations": true,
-      "enableReSTIRDI": false,
-      "enableReSTIRGI": false
+      "maxBounces": 48
     }
   ]
 }

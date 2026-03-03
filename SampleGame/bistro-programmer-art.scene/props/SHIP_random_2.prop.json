@@ -1,0 +1,51 @@
+{
+	"animPlaybackSpeed" : 1.0,
+	"components" : 
+	[
+		{
+			"type" : "BasicInteractableUI"
+		}
+	],
+	"defaultCameraPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"translation" : 
+		[
+			0.0,
+			0.0,
+			0.08256889134645462
+		]
+	},
+	"modelName" : "RX6SpaceShip",
+	"propType" : "SimpleProp",
+	"startPose" : 
+	{
+		"keytime" : 0.0,
+		"rotation" : 
+		[
+			0.047794786363959091,
+			-0.99496545663521663,
+			-0.0042261638779497032,
+			0.087986010467432665
+		],
+		"scaling" : 
+		[
+			0.5,
+			0.5,
+			0.5
+		],
+		"translation" : 
+		[
+			-15.399881362915039,
+			4.2443523406982422,
+			-3.20489501953125
+		]
+	}
+}

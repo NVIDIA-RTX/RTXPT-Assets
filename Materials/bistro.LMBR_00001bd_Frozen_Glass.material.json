@@ -40,8 +40,9 @@
 		"path" : "Models\\Bistro\\objects\\structures\\buildings\\paris_building_10\\frosted_glass_ddna.dds",
 		"sRGB" : false
 	},
-	"NormalTextureScale" : 1.0,
+	"NormalTextureScale" : 0.10000000149011612,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 2,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.0,

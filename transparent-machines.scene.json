@@ -40,7 +40,7 @@
           "verticalFov": 0.399597,
           "zNear": 0.100000,
           "enableAutoExposure": false,
-          "exposureCompensation": 2.000000,
+          "exposureCompensation": 1.500000,
           "exposureValue": 0.000000
         }
       ]
@@ -50,8 +50,7 @@
       "type": "SampleSettings",
       "realtimeMode": true,
       "enableAnimations": false,
-      "enableReSTIRDI": false,
-      "enableReSTIRGI": false
+      "maxBounces": 48
     }
   ]
 }

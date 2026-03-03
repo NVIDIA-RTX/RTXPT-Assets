@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\bistro\\paris_cloths_01\\paris_cloths_01_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.0,
+	"DiffuseTransmissionFactor" : 0.40000000596046448,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -26,7 +26,7 @@
 	"EnableEmissiveTexture" : true,
 	"EnableNormalTexture" : true,
 	"EnableOcclusionRoughnessMetallicTexture" : true,
-	"EnableTransmission" : false,
+	"EnableTransmission" : true,
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,

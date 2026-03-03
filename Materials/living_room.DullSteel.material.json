@@ -2,9 +2,9 @@
 	"AlphaCutoff" : 0.5,
 	"BaseOrDiffuseColor" : 
 	[
-		0.10000000149011612,
-		0.10000000149011612,
-		0.10000000149011612
+		0.20000000298023224,
+		0.18999999761581421,
+		0.2199999988079071
 	],
 	"DiffuseTransmissionFactor" : 0.0,
 	"EmissiveColor" : 
@@ -25,14 +25,15 @@
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
 	"IoR" : 1.5,
-	"Metalness" : 0.0,
+	"Metalness" : 1.0,
 	"MetalnessInRedChannel" : false,
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
-	"PSDDominantDeltaLobe" : -1,
+	"PSDBlockMotionVectorsAtSurfaceType" : 3,
+	"PSDDominantDeltaLobe" : 1,
 	"PSDExclude" : false,
-	"Roughness" : 0.91835033893585205,
+	"Roughness" : 0.076999999582767487,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 

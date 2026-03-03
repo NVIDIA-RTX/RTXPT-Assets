@@ -48,16 +48,17 @@
 		"sRGB" : true
 	},
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 2,
 	"PSDDominantDeltaLobe" : -1,
-	"PSDExclude" : true,
+	"PSDExclude" : false,
 	"Roughness" : 0.050000011920928955,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.73000001907348633,
-		0.73000001907348633,
-		0.73000001907348633
+		0.89999997615814209,
+		0.89999997615814209,
+		0.89999997615814209
 	],
 	"ThinSurface" : false,
 	"TransmissionFactor" : 0.0,

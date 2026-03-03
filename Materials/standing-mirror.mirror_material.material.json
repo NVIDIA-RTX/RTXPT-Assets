@@ -2,9 +2,9 @@
 	"AlphaCutoff" : 0.5,
 	"BaseOrDiffuseColor" : 
 	[
-		0.80000001192092896,
-		0.80000001192092896,
-		0.80000001192092896
+		0.60000002384185791,
+		0.60000002384185791,
+		0.89999997615814209
 	],
 	"DiffuseTransmissionFactor" : 0.0,
 	"EmissiveColor" : 
@@ -36,6 +36,7 @@
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 1,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.0,
