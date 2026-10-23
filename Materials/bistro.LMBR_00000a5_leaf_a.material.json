@@ -12,7 +12,8 @@
 		"path" : "Models\\Bistro\\objects\\props\\natural\\paris_ivy_01a\\paris_ivy_leaf_a_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.57499998807907104,
+	"DiffuseTransmissionFactor" : 0.5,
+	"DisableLightSampling" : false,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -30,7 +31,7 @@
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
-	"IoR" : 1.5,
+	"IoR" : 1.2000000476837158,
 	"Metalness" : 0.0,
 	"MetalnessInRedChannel" : false,
 	"NestedPriority" : 14,
@@ -42,19 +43,20 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : -1,
-	"PSDExclude" : false,
-	"Roughness" : 0.72000002861022949,
+	"PSDExclude" : true,
+	"Roughness" : 0.85000002384185791,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.0039215688593685627,
-		0.0039215688593685627,
-		0.0039215688593685627
+		0.039999999105930328,
+		0.059999998658895493,
+		0.019999999552965164
 	],
 	"ThinSurface" : true,
-	"TransmissionFactor" : 0.36000001430511475,
+	"TransmissionFactor" : 0.5,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : true,
 	"VolumeAttenuationColor" : 

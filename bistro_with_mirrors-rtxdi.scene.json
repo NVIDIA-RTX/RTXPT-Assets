@@ -1,0 +1,458 @@
+{
+  "models": [
+    "Models/Bistro/bistro.gltf",
+    "Models/sphere_with_holes/sphere_with_holes.gltf",
+    "Models/glTF-Sample-Models/2.0/BrainStem/glTF/BrainStem.gltf",
+    "Models/bistro_mirrors/bistro_bar_mirrors.gltf",
+    "Models/bistro_mirrors/bistro_archway_mirrors.gltf"
+  ],
+  "graph": [
+    {
+      "name": "Bistro (without paintings)",
+      "model": 0
+    },
+    {
+      "name": "Sphere",
+      "model": 1,
+      "translation": [ -33.0, 0.25, -1.2 ],
+      "scaling": 0.25
+    },
+    {
+      "name": "DancingRobot",
+      "model": 2,
+      "translation": [ 6.397, 0.25, 27.42 ],
+      "rotation": [ 0, 0.3826834, 0, 0.9238795 ],
+      "scaling": 2.0
+    },
+    {
+      "name": "Lights",
+      "children": [
+        {
+          "name": "Sun",
+          "type": "DirectionalLight",
+          "rotation": [ -0.426794, -0.393003, -0.213387, 0.786042 ],
+          "angularSize": 1.0,
+          "color": [ 1.0, 1.0, 1.0 ],
+          "irradiance": 0.8
+        },
+        {
+          "name": "Sky",
+          "type": "EnvironmentLight",
+          "radianceScale": [ 1, 1, 1 ],
+          "textureIndex": [ 0 ],
+          "rotation": [ 0 ],
+          "intensity": 0.8,
+          "path": "EnvironmentMaps/rtxdienvmap.dds"
+        },
+        {
+          "name": "BistroLeft1",
+          "type": "SpotLight",
+          "translation": [ -12.14, 4.126, 7.773 ],
+          "rotation": [ -0.356237, 0.465825, 0.212289, 0.781688 ],
+          "color": [ 0.8669, 0.3692, 0.1888 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroLeft2",
+          "type": "SpotLight",
+          "translation": [ -11.03, 4.129, 5.712 ],
+          "rotation": [ -0.353507, 0.469818, 0.212821, 0.780392 ],
+          "color": [ 0.1503, 0.8105, 0.445 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroLeft3",
+          "type": "SpotLight",
+          "translation": [ -10.02, 4.123, 3.825 ],
+          "rotation": [ -0.359717, 0.466427, 0.215415, 0.778875 ],
+          "color": [ 0.2578, 0.2457, 0.9234 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroLeft4",
+          "type": "SpotLight",
+          "translation": [ -8.845, 4.127, 1.656 ],
+          "rotation": [ -0.362223, 0.463951, 0.215698, 0.779114 ],
+          "color": [ 0.5131, 0.9355, 0.347 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroRight1",
+          "type": "SpotLight",
+          "translation": [ -9.677, 4.128, 13.96 ],
+          "rotation": [ -0.082302, 0.886797, 0.420317, 0.173642 ],
+          "color": [ 0.8669, 0.3692, 0.1888 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroRight2",
+          "type": "SpotLight",
+          "translation": [ -7.388, 4.119, 14.87 ],
+          "rotation": [ -0.072137, 0.901134, 0.394456, 0.164796 ],
+          "color": [ 0.1503, 0.8105, 0.445 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroRight3",
+          "type": "SpotLight",
+          "translation": [ -5.39, 4.119, 15.65 ],
+          "rotation": [ -0.081457, 0.884478, 0.427369, 0.168581 ],
+          "color": [ 0.2578, 0.2457, 0.9234 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroRight4",
+          "type": "SpotLight",
+          "translation": [ -3.212, 4.123, 16.51 ],
+          "rotation": [ -0.081901, 0.883393, 0.429586, 0.168418 ],
+          "color": [ 0.5131, 0.9355, 0.347 ],
+          "intensity": 2.0,
+          "innerAngle": 60.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0
+        },
+        {
+          "name": "BistroEntranceSpot",
+          "type": "SpotLight",
+          "translation": [ -21.87, 8.7, 16.16 ],
+          "rotation": [ -0.191340, -0.515931, -0.119456, 0.826398 ],
+          "color": [ 0.9748, 1.0, 0.6089 ],
+          "intensity": 10.0,
+          "innerAngle": 20.0,
+          "outerAngle": 24.0,
+          "radius": 0.01,
+          "range": 20.0
+        },
+        {
+          "name": "WindowSpot1",
+          "type": "SpotLight",
+          "translation": [ -23.39, 8.654, 14.35 ],
+          "rotation": [ 0.242435, 0.742378, -0.519837, 0.346221 ],
+          "color": [ 1.0, 1.0, 1.0 ],
+          "intensity": 2.0,
+          "innerAngle": 85.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0,
+          "profile": "ThreeLobeUmbrella.ies"
+        },
+        {
+          "name": "WindowSpot2",
+          "type": "SpotLight",
+          "translation": [ -27.13, 8.676, 10.01 ],
+          "rotation": [ 0.242435, 0.742378, -0.519837, 0.346221 ],
+          "color": [ 1.0, 1.0, 1.0 ],
+          "intensity": 2.0,
+          "innerAngle": 85.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0,
+          "profile": "ThreeLobeUmbrella.ies"
+        },
+        {
+          "name": "WindowSpot3",
+          "type": "SpotLight",
+          "translation": [ -29.38, 8.613, 6.193 ],
+          "rotation": [ 0.242435, 0.742378, -0.519837, 0.346221 ],
+          "color": [ 1.0, 0.9205, 0.2581 ],
+          "intensity": 2.0,
+          "innerAngle": 85.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0,
+          "profile": "Pear.ies"
+        },
+        {
+          "name": "WindowSpot4",
+          "type": "SpotLight",
+          "translation": [ -32.87, 8.652, 3.278 ],
+          "rotation": [ 0.242435, 0.742378, -0.519837, 0.346221 ],
+          "color": [ 1.0, 1.0, 1.0 ],
+          "intensity": 2.0,
+          "innerAngle": 85.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0,
+          "profile": "ThreeLobeUmbrella.ies"
+        },
+        {
+          "name": "WindowSpot5",
+          "type": "SpotLight",
+          "translation": [ -36.6, 8.643, -1.034 ],
+          "rotation": [ 0.242435, 0.742378, -0.519837, 0.346221 ],
+          "color": [ 1.0, 1.0, 1.0 ],
+          "intensity": 2.0,
+          "innerAngle": 85.0,
+          "outerAngle": 90.0,
+          "radius": 0.01,
+          "range": 10.0,
+          "profile": "ThreeLobeUmbrella.ies"
+        }
+      ]
+    },
+    {
+      "name": "Cameras",
+      "children": [
+        {
+          "name": "Outside",
+          "type": "PerspectiveCamera",
+          "translation": [ -7.688000, 2.000000, 5.594000 ],
+          "rotation": [ 0.000043, -0.983918, 0.000000, 0.178621 ],
+          "verticalFov": 1.04719758,
+          "zNear": 0.001,
+          "exposureValue": -1.0,
+          "enableAutoExposure": true,
+          "exposureCompensation": 1.2,
+          "exposureValueMin": -5.0,
+          "exposureValueMax": 7.0
+        }
+      ]
+    },
+    {
+      "name": "SampleSettings",
+      "type": "SampleSettings",
+      "realtimeMode": true,
+      "enableAnimations": true
+    },
+    {
+      "name": "Bistro Bar Mirrors",
+      "model": 3
+    },
+    {
+      "name": "Bistro Archway Mirrors",
+      "model": 4
+    }
+  ],
+	"animations": [
+		{
+			"name": "Benchmark",
+			"channels": [
+				{
+					"target": "/Cameras/Benchmark",
+					"attribute": "translation",
+					"mode": "catmull-rom",
+					"data": [
+						{ "time": 0,  "value": [-5.678, 2.054, 3.528] },
+						{ "time": 2,  "value": [-5.691, 1.955, 6.742] },
+						{ "time": 4,  "value": [-1.834, 2.208, 8.784] },
+						{ "time": 6,  "value": [-0.4407, 2.529, 10.16] },
+						{ "time": 8,  "value": [-3.55, 2.206, 13.04] },
+						{ "time": 10, "value": [-8.533, 1.878, 11.29] },
+						{ "time": 12, "value": [-12.63, 1.888, 11.6] },
+						{ "time": 14, "value": [-18.79, 2.496, 12.27] },
+						{ "time": 16, "value": [-24.59, 2.456, 6.652] },
+						{ "time": 18, "value": [-30.46, 1.402, 0.7689] },
+						{ "time": 20, "value": [-35.52, 2.755, -1.811] },
+						{ "time": 22, "value": [-35.69, 2.648, -6.164] },
+						{ "time": 24, "value": [-31.34, 5.483, -2.962] },
+						{ "time": 26, "value": [-26.9, 5.503, 2.108] },
+						{ "time": 28, "value": [-21.5, 5.342, 7.043] },
+						{ "time": 30, "value": [-15.17, 4.801, 2.099]  }
+					]
+				},
+				{
+					"target": "/Cameras/Benchmark",
+					"attribute": "rotation",
+					"mode": "catmull-rom",
+					"data": [
+						{ "time": 0,  "value": [-0.000691, 0.997516, 0.009976, 0.069728] },
+						{ "time": 2,  "value": [-0.000000, 0.893724, 0.000000, -0.448617] },
+						{ "time": 4,  "value": [0.000173, 0.996593, 0.082430, -0.002691] },
+						{ "time": 6,  "value": [-0.028015, 0.781609, 0.035196, 0.622145] },
+						{ "time": 8,  "value": [-0.044797, 0.578919, 0.031878, 0.813529] },
+						{ "time": 10, "value": [0.000000, 0.660150, 0.000000, 0.751133] },
+						{ "time": 12, "value": [0.000122, 0.877665, -0.000000, 0.479275] },
+						{ "time": 14, "value": [-0.002306, 0.390313, 0.000953, 0.920679] },
+						{ "time": 16, "value": [-0.002306, 0.390313, 0.000953, 0.920679] },
+						{ "time": 18, "value": [-0.119750, 0.418633, 0.055795, 0.898495] },
+						{ "time": 20, "value": [-0.008770, 0.166806, 0.001480, 0.985950] },
+						{ "time": 22, "value": [0.003708, -0.793999, 0.004848, 0.607888] },
+						{ "time": 24, "value": [0.048440, -0.838868, 0.075689, 0.536865] },
+						{ "time": 26, "value": [-0.008674, -0.937601, -0.023446, 0.346812] },
+						{ "time": 28, "value": [-0.037218, -0.561171, -0.025270, 0.826476] },
+						{ "time": 30, "value": [-0.034656, -0.381301, -0.014305, 0.923690] }
+					]
+				}
+			]
+		},
+		{
+			"name": "RotatingSphere",
+			"channels": [
+				{
+					"target": "/Sphere/sphere/body",
+					"attribute": "rotation",
+					"mode": "slerp",
+					"data": [
+						{ "time": 0, "value": [0, 0, 0, 1] },
+						{ "time": 1, "value": [0, 0, 0.7071068, 0.7071068] },
+						{ "time": 2, "value": [0, 0, 1, 0] },
+						{ "time": 3, "value": [0, 0, 0.7071068, -0.7071068] },
+						{ "time": 4, "value": [0, 0, 0, -1] }
+					]
+				}
+			]
+		},
+		{
+			"name": "RotatingFans",
+			"channels": [
+				{
+					"targets": [
+						"/Bistro (without paintings)/RootNode/Level/CameraAmazon/paris_ceilingfan_01a_blades7",
+						"/Bistro (without paintings)/RootNode/Level/CameraAmazon/paris_ceilingfan_01a_blades8"
+					],
+					"attribute": "rotation",
+					"mode": "slerp",
+					"data": [
+						{ "time": 0.00, "value": [0, 0, 0, 1] },
+						{ "time": 0.25, "value": [0, 0, 0.7071068, 0.7071068] },
+						{ "time": 0.50, "value": [0, 0, 1, 0] },
+						{ "time": 0.75, "value": [0, 0, 0.7071068, -0.7071068] },
+						{ "time": 1.00, "value": [0, 0, 0, -1] }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Yellow",
+			"channels": [
+				{
+					"target": "material:LMBR_000019c_Paris_StringLights_01_Yellow_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 10 },
+						{ "time": 2.0, "value": 0 },
+						{ "time": 4.0, "value": 0 }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Pink",
+			"channels": [
+				{
+					"target": "material:LMBR_000019a_Paris_StringLights_01_Pink_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 0.1 },
+						{ "time": 0.4, "value": 12.8 },
+						{ "time": 2.4, "value": 0.1 },
+						{ "time": 4.0, "value": 0.1 }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Red",
+			"channels": [
+				{
+					"target": "material:LMBR_0000197_Paris_StringLights_01_Red_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 0.1 },
+						{ "time": 0.8, "value": 8.0 },
+						{ "time": 2.8, "value": 0.1 },
+						{ "time": 4.0, "value": 0.1 }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Green",
+			"channels": [
+				{
+					"target": "material:LMBR_0000199_Paris_StringLights_01_Green_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 0.1 },
+						{ "time": 1.2, "value": 11.4 },
+						{ "time": 3.2, "value": 0.1 },
+						{ "time": 4.0, "value": 0.1 }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Orange",
+			"channels": [
+				{
+					"target": "material:LMBR_000019b_Paris_StringLights_01_Orange_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 0.1 },
+						{ "time": 1.6, "value": 20.0 },
+						{ "time": 3.6, "value": 0.1 },
+						{ "time": 4.0, "value": 0.1 }
+					]
+				}
+			]
+		},
+		{
+			"name": "StringLights-Blue",
+			"channels": [
+				{
+					"target": "material:LMBR_0000198_Paris_StringLights_01_Blue_Color",
+					"attribute": "emissiveIntensity",
+					"mode": "step",
+					"data": [
+						{ "time": 0.0, "value": 0.1 },
+						{ "time": 1.6, "value": 9.0 },
+						{ "time": 3.6, "value": 0.1 },
+						{ "time": 4.0, "value": 0.1 }
+					]
+				}
+			]
+		},
+	],
+	"rtxgi-volumes": [
+		{
+			"name": "Indoors",
+			"probeCounts": [ 14, 6, 16 ],
+			"probeSpacing": 1.0,
+			"origin": [ -5.25, 2.15, 8.3 ],
+			"eulerAngles": [ 0, -29, 0 ],
+			"scrolling": false
+		},
+		{
+			"name": "Scrolling",
+			"probeCounts": [ 16, 8, 16 ],
+			"probeSpacing": 2.0,
+			"scrolling": true
+		}
+	],
+	"helpers": [
+	],
+}

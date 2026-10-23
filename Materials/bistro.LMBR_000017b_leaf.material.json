@@ -12,7 +12,8 @@
 		"path" : "Models\\Bistro\\objects\\natural\\bushes\\buxus\\buxus_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.8399999737739563,
+	"DiffuseTransmissionFactor" : 0.40000000596046448,
+	"DisableLightSampling" : false,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -30,7 +31,7 @@
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
-	"IoR" : 1.5,
+	"IoR" : 1.2999999523162842,
 	"Metalness" : 0.0,
 	"MetalnessInRedChannel" : false,
 	"NestedPriority" : 14,
@@ -42,19 +43,20 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
-	"Roughness" : 0.63999998569488525,
+	"Roughness" : 0.80000001192092896,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.0078431377187371254,
-		0.0078431377187371254,
-		0.0078431377187371254
+		0.059999998658895493,
+		0.079999998211860657,
+		0.039999999105930328
 	],
 	"ThinSurface" : true,
-	"TransmissionFactor" : 0.54500001668930054,
+	"TransmissionFactor" : 0.40000000596046448,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : true,
 	"VolumeAttenuationColor" : 

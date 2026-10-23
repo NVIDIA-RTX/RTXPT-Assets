@@ -2,7 +2,6 @@
   "animPlaybackSpeed": 1.0,
   "components": [
     {
-      "type": "BasicInteractableUI"
     }
   ],
   "defaultCameraPose": {

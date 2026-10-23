@@ -13,6 +13,7 @@
 		"sRGB" : true
 	},
 	"DiffuseTransmissionFactor" : 0.0,
+	"DisableLightSampling" : false,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -45,7 +46,7 @@
 	"PSDBlockMotionVectorsAtSurfaceType" : 2,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
-	"Roughness" : 0.0,
+	"Roughness" : 0.029999971389770508,
 	"ShadowNoLFadeout" : 0.0,
 	"SkipRender" : false,
 	"SpecularColor" : 

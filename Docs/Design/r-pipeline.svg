@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="334" viewBox="0 0 960 334" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A94A3"/></marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="333" rx="14" fill="#FFFFFF" stroke="#E1E5EA"/>
+  <g>
+    <rect x="30" y="30" width="156" height="84" rx="10" fill="#EAF1FB" stroke="#3B6FB6" stroke-width="1.6"/>
+    <circle cx="45" cy="45" r="10" fill="#3B6FB6"/>
+    <text x="45" y="49" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="108.0" y="70.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#1D3B66">VERTEX</text>
+    <text x="108.0" y="86.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#1D3B66">PROCESSING</text>
+  </g>
+  <g>
+    <rect x="216" y="30" width="156" height="84" rx="10" fill="#EAF1FB" stroke="#3B6FB6" stroke-width="1.6"/>
+    <circle cx="231" cy="45" r="10" fill="#3B6FB6"/>
+    <text x="231" y="49" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="294.0" y="78.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#1D3B66">BLAS/TLAS</text>
+  </g>
+  <g>
+    <rect x="402" y="30" width="156" height="84" rx="10" fill="#FFF4DF" stroke="#D08A12" stroke-width="1.6"/>
+    <circle cx="417" cy="45" r="10" fill="#D08A12"/>
+    <text x="417" y="49" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="480.0" y="70.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#6E4300">EARLY LIGHT</text>
+    <text x="480.0" y="86.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#6E4300">UPDATE</text>
+  </g>
+  <g>
+    <rect x="588" y="30" width="156" height="84" rx="10" fill="#F0F8E2" stroke="#5E9A00" stroke-width="1.6"/>
+    <circle cx="603" cy="45" r="10" fill="#5E9A00"/>
+    <text x="603" y="49" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="666.0" y="70.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">PATH TRACE</text>
+    <text x="666.0" y="86.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">PRE-PASS</text>
+  </g>
+  <g>
+    <rect x="774" y="30" width="156" height="84" rx="10" fill="#FFF4DF" stroke="#D08A12" stroke-width="1.6"/>
+    <circle cx="789" cy="45" r="10" fill="#D08A12"/>
+    <text x="789" y="49" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="852.0" y="70.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#6E4300">LATE LIGHT</text>
+    <text x="852.0" y="86.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#6E4300">UPDATE</text>
+  </g>
+  <g>
+    <rect x="30" y="176" width="156" height="84" rx="10" fill="#F0F8E2" stroke="#5E9A00" stroke-width="1.6"/>
+    <circle cx="45" cy="191" r="10" fill="#5E9A00"/>
+    <text x="45" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
+    <text x="108.0" y="216.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">SHARC UPDATE</text>
+    <text x="108.0" y="232.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">PATH TRACING</text>
+  </g>
+  <g>
+    <rect x="216" y="176" width="156" height="84" rx="10" fill="#F0F8E2" stroke="#5E9A00" stroke-width="1.6"/>
+    <circle cx="231" cy="191" r="10" fill="#5E9A00"/>
+    <text x="231" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">7</text>
+    <text x="294.0" y="216.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">MAIN PATH</text>
+    <text x="294.0" y="232.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#2C4A00">TRACING PASS</text>
+  </g>
+  <g>
+    <rect x="402" y="176" width="156" height="84" rx="10" fill="#F1ECFB" stroke="#7550C7" stroke-width="1.6"/>
+    <circle cx="417" cy="191" r="10" fill="#7550C7"/>
+    <text x="417" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">8</text>
+    <text x="480.0" y="216.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#3B2470">DENOISER GUIDE</text>
+    <text x="480.0" y="232.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#3B2470">GENERATION</text>
+  </g>
+  <g>
+    <rect x="588" y="176" width="156" height="84" rx="10" fill="#F1ECFB" stroke="#7550C7" stroke-width="1.6"/>
+    <circle cx="603" cy="191" r="10" fill="#7550C7"/>
+    <text x="603" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">9</text>
+    <text x="666.0" y="216.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#3B2470">DLSS-RR</text>
+    <text x="666.0" y="232.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#3B2470">DENOISING</text>
+  </g>
+  <g>
+    <rect x="774" y="176" width="156" height="84" rx="10" fill="#E7F4F5" stroke="#2B8A93" stroke-width="1.6"/>
+    <circle cx="789" cy="191" r="10" fill="#2B8A93"/>
+    <text x="789" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">10</text>
+    <text x="852.0" y="216.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#114A50">TONEMAPPING AND</text>
+    <text x="852.0" y="232.5" text-anchor="middle" font-size="12.5" font-weight="600" letter-spacing="0.3" fill="#114A50">POST-PROCESS</text>
+  </g>
+  <line x1="189" y1="72.0" x2="213" y2="72.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="375" y1="72.0" x2="399" y2="72.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="561" y1="72.0" x2="585" y2="72.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="747" y1="72.0" x2="771" y2="72.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="189" y1="218.0" x2="213" y2="218.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="375" y1="218.0" x2="399" y2="218.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="561" y1="218.0" x2="585" y2="218.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="747" y1="218.0" x2="771" y2="218.0" stroke="#8A94A3" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <path d="M852.0,117 V145.0 H108.0 V173" fill="none" stroke="#8A94A3" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <rect x="229.0" y="294" width="14" height="14" rx="3" fill="#EAF1FB" stroke="#3B6FB6" stroke-width="1.4"/>
+  <text x="250.0" y="305.5" font-size="12.5" fill="#4A5361">Geometry</text>
+  <rect x="334.0" y="294" width="14" height="14" rx="3" fill="#FFF4DF" stroke="#D08A12" stroke-width="1.4"/>
+  <text x="355.0" y="305.5" font-size="12.5" fill="#4A5361">Lights</text>
+  <rect x="418.0" y="294" width="14" height="14" rx="3" fill="#F0F8E2" stroke="#5E9A00" stroke-width="1.4"/>
+  <text x="439.0" y="305.5" font-size="12.5" fill="#4A5361">Path tracing</text>
+  <rect x="534.0" y="294" width="14" height="14" rx="3" fill="#F1ECFB" stroke="#7550C7" stroke-width="1.4"/>
+  <text x="555.0" y="305.5" font-size="12.5" fill="#4A5361">Denoising</text>
+  <rect x="640.0" y="294" width="14" height="14" rx="3" fill="#E7F4F5" stroke="#2B8A93" stroke-width="1.4"/>
+  <text x="661.0" y="305.5" font-size="12.5" fill="#4A5361">Post-process</text>
+</svg>

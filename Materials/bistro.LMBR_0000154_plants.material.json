@@ -12,7 +12,7 @@
 		"path" : "Models\\Bistro\\objects\\props\\bistro\\paris_flower_pot_01\\paris_interior_plants_01_diff.dds",
 		"sRGB" : true
 	},
-	"DiffuseTransmissionFactor" : 0.23000000417232513,
+	"DiffuseTransmissionFactor" : 0.30000001192092896,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -42,6 +42,7 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.41500002145767212,
@@ -54,7 +55,7 @@
 		0.011764706112444401
 	],
 	"ThinSurface" : true,
-	"TransmissionFactor" : 0.059999998658895493,
+	"TransmissionFactor" : 0.10000000149011612,
 	"UseDonutEmissiveIntensity" : false,
 	"UseSpecularGlossModel" : true,
 	"VolumeAttenuationColor" : 

@@ -14,7 +14,9 @@
     "Models/GlassSphere/GlassSphere.gltf",
     "Models/GlassLens/GlassLens.gltf",
     "Models/ConvergenceTest/ConvergenceTest.gltf",
-    "Models/window/window.gltf"
+    "Models/window/window.gltf",
+    "Models/bistro_mirrors/bistro_bar_mirrors.gltf",
+    "Models/bistro_mirrors/bistro_archway_mirrors.gltf"
   ],
   "graph": [
     {
@@ -98,20 +100,6 @@
       "rotation": [ 0.0, -0.32, 0.0, 0.94741754 ]
     },
     {
-      "name": "WindowMirror1",
-      "model": 14,
-      "translation": [ 7.90, 2.3, 24.4 ],
-      "scaling": 0.55,
-      "euler": [ 0, 1.23, 0 ]
-    },
-    {
-      "name": "WindowMirror2",
-      "model": 14,
-      "translation": [ 5.96, 2.3, 29.7 ],
-      "scaling": 0.55,
-      "euler": [ 0, 1.23, 0 ]
-    },
-    {
       "name": "WindowMirror3",
       "model": 14,
       "translation": [ -13.2, 0.87, 24.0 ],
@@ -124,6 +112,10 @@
       "translation": [ -3.8, 1.95, 6.9 ],
       "scaling": 0.24,
       "euler": [ 0, 1.07, 0 ]
+    },
+    {
+      "name": "Bistro Archway Mirrors",
+      "model": 16
     },
     {
       "name": "Lights",

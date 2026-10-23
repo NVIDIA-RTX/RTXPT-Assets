@@ -30,7 +30,7 @@
 	"EnableTransmissionTexture" : true,
 	"ExcludeFromNEE" : false,
 	"IgnoreMeshTangentSpace" : false,
-	"IoR" : 1.5,
+	"IoR" : 1.1000000238418579,
 	"Metalness" : 0.0,
 	"MetalnessInRedChannel" : false,
 	"NestedPriority" : 14,
@@ -42,6 +42,7 @@
 	},
 	"NormalTextureScale" : 1.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.89499998092651367,
@@ -49,9 +50,9 @@
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.0078431377187371254,
-		0.0078431377187371254,
-		0.0078431377187371254
+		0.079999998211860657,
+		0.079999998211860657,
+		0.05000000074505806
 	],
 	"ThinSurface" : true,
 	"TransmissionFactor" : 0.46000000834465027,

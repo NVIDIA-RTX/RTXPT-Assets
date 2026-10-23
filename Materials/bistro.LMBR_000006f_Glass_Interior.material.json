@@ -7,6 +7,7 @@
 		1.0
 	],
 	"DiffuseTransmissionFactor" : 0.0,
+	"DisableLightSampling" : false,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -30,11 +31,12 @@
 	"NestedPriority" : 14,
 	"NormalTextureScale" : 0.0,
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : 0,
 	"PSDExclude" : false,
 	"Roughness" : 0.0,
 	"ShadowNoLFadeout" : 0.0,
-	"SkipRender" : false,
+	"SkipRender" : true,
 	"SpecularColor" : 
 	[
 		0.0,

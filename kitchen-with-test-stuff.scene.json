@@ -1,0 +1,157 @@
+{
+  "models": [
+    "Models/kitchen/kitchen.gltf",
+    "Models/Glass-liquid-ice/glass-liquid-ice.gltf",
+    "Models/plant_free_pothos_potted/scene.gltf",
+    "Models/plant_pot_ivy/scene.gltf",
+    "Models/mech_drone/mech_drone.gltf",
+    "Models/transparent-machines/transparent-machines-pt1.gltf"
+  ],
+  "graph": [
+    {
+      "name": "Kitchen",
+      "model": 0
+    },
+    {
+      "name": "transparent-machines-pt1",
+      "model": 5,
+      "translation": [ -2.323191, 1.4305, 0.873863 ],
+      "rotation": [ -0.5, 0.5, -0.5, 0.5 ],
+      "scaling": 0.0015
+    },
+    {
+      "name": "GlassLiquidIce",
+      "model": 1,
+      "translation": [ -0.1, 0.91, -1.5 ],
+      "scaling": 0.05,
+      "rotation": [ 0, -0.7071068, 0, -0.7071068 ]
+    },
+    {
+      "name": "Plant",
+      "model": 2,
+      "translation": [ -2.118954, 0, 2.726503 ],
+      "scaling": 0.7
+    },
+    {
+      "name": "PlantPotIvy_0",
+      "model": 3,
+      "translation": [ -2.34, 0.99, 1.74 ],
+      "rotation": [ 0, -0.7071068, 0, -0.7071068 ]
+    },
+    {
+      "name": "PlantPotIvy_1",
+      "model": 3,
+      "translation": [ -2.14, 0.99, 2.04 ],
+      "rotation": [ -0.7071068, 0, 0.7071068 ]
+    },
+    {
+      "name": "PlantPotIvy_2",
+      "model": 3,
+      "translation": [ -1.94, 0.99, 1.74 ],
+      "rotation": [ 0, 0.7071068, 0, -0.7071068 ]
+    },
+    {
+      "name": "MechDrone",
+      "model": 4,
+      "translation": [ -0.22, 0.85, -2.61 ],
+      "scaling": 0.6,
+      "rotation": [ 0, 1, 0, 0 ]
+    },
+    {
+      "name": "MechDroneInMicrowave",
+      "model": 4,
+      "translation": [ -2.1, 1.03, -2.0 ],
+      "rotation": [ 0, 0.7071068, 0, -0.7071068 ],
+      "scaling": 0.4
+    },
+    {
+      "name": "Lights",
+      "children": [
+        {
+          "name": "Sky",
+          "type": "EnvironmentLight",
+          "radianceScale": [ 1, 1, 1 ],
+          "textureIndex": [ 0 ],
+          "rotation": [ 0 ],
+          "path": "EnvironmentMaps/simons_town_rocks_4k_cube_bc6u.dds"
+        },
+        {
+          "name": "TestSpotlightR",
+          "type": "SpotLight",
+          "translation": [ -0.382383, 2.6, -1.076840 ],
+          "rotation": [ -0.101439, 0.676445, 0.094872, 0.723278 ],
+          "color": [ 1.0, 0.1, 0.1 ],
+          "intensity": 8.0,
+          "innerAngle": 9.0,
+          "outerAngle": 9.1,
+          "radius": 0.1,
+          "range": 100.0
+        },
+        {
+          "name": "TestSpotlightG",
+          "type": "SpotLight",
+          "translation": [ -0.382383, 2.6, -1.076840 ],
+          "rotation": [ -0.105406, 0.635415, 0.088146, 0.759847 ],
+          "color": [ 0.1, 1.0, 0.1 ],
+          "intensity": 8.0,
+          "innerAngle": 9.0,
+          "outerAngle": 9.1,
+          "radius": 0.1,
+          "range": 100.0
+        },
+        {
+          "name": "TestSpotlightB",
+          "type": "SpotLight",
+          "translation": [ -0.382383, 2.6, -1.076840 ],
+          "rotation": [ -0.108820, 0.593600, 0.081438, 0.793199 ],
+          "color": [ 0.1, 0.1, 1.0 ],
+          "intensity": 8.0,
+          "innerAngle": 9.0,
+          "outerAngle": 9.1,
+          "radius": 0.1,
+          "range": 100.0
+        },
+        {
+          "name": "TestTorchLikeSpotlight",
+          "type": "SpotLight",
+          "translation": [ -1.902858, 1.829940, -0.080307 ],
+          "rotation": [ -0.061819, 0.394085, 0.026580, 0.916607 ],
+          "color": [ 1.0, 1.0, 1.0 ],
+          "intensity": 0.0001,
+          "innerAngle": 5.08,
+          "outerAngle": 5.1,
+          "radius": 0.01,
+          "range": 100.0
+        }
+
+      ]
+    },
+    {
+      "name": "Cameras",
+      "children": [
+        {
+          "name": "Default",
+          "type": "PerspectiveCameraEx",
+          "translation": [ 1.211005, 1.804751, 3.852390 ],
+          "rotation": [ -0.020305, 0.224962, 0.004690, 0.974145 ],
+          "verticalFov": 0.628029,
+          "zNear": 0.010000,
+          "enableAutoExposure": false,
+          "exposureCompensation": 1.3,
+          "exposureValueMin": -4.0,
+          "exposureValueMax": 5.0,
+          "exposureValue" :  -2.0
+        }
+      ]
+    },
+    {
+      "name": "SampleSettings",
+      "type": "SampleSettings",
+      "realtimeMode": true,
+      "enableAnimations": false,
+      "realtimeFireflyFilter": 0.15
+    }
+  ]
+}
+
+

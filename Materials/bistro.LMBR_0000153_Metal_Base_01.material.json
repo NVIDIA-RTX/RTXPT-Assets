@@ -13,6 +13,7 @@
 		"sRGB" : true
 	},
 	"DiffuseTransmissionFactor" : 0.0,
+	"DisableLightSampling" : false,
 	"EmissiveColor" : 
 	[
 		0.0,
@@ -48,6 +49,7 @@
 		"sRGB" : true
 	},
 	"Opacity" : 1.0,
+	"PSDBlockMotionVectorsAtSurfaceType" : 0,
 	"PSDDominantDeltaLobe" : -1,
 	"PSDExclude" : false,
 	"Roughness" : 0.18000000715255737,
@@ -55,9 +57,9 @@
 	"SkipRender" : false,
 	"SpecularColor" : 
 	[
-		0.33725491166114807,
-		0.28859996795654297,
-		0.25922340154647827
+		0.50550001859664917,
+		0.43349999189376831,
+		0.38850000500679016
 	],
 	"ThinSurface" : false,
 	"TransmissionFactor" : 0.0,
